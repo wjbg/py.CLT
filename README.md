@@ -73,6 +73,8 @@ Poisson's ratio. In addition, we will need a vector with the
 coefficients of thermal expansion.
 
 ```python
+import clt
+
 # Material properties
 E1, E2, v12, G12 = 120E9, 10E9, 0.28, 5E9
 alpha = np.array([0.2E-6, 30E-6, 0])  # CTE in material CS
